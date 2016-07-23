@@ -31,8 +31,8 @@ extern NSString *const LocationTrackerDidFailWithError;
 @property (nonatomic, copy) CLLocation *lastKnownLocation;
 @property (nonatomic, copy) CLHeading *lastKnownHeading;
 
-@property (nonatomic, assign) BOOL significantMode; // defoult Yes
-@property (nonatomic, assign) CLLocationDistance regionRadius; // defoult 50 m
+@property (nonatomic, assign) BOOL significantMode; // default Yes
+@property (nonatomic, assign) CLLocationDistance regionRadius; // default 50 m
 
 @end
 
